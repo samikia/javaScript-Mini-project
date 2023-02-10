@@ -14,7 +14,7 @@ function dataValidation(){
         modal.innerHTML="you are login successfully:)"
         modal.style.display='inline'
     }
+    setTimeout(function(){
+        modal.style.display='none'
+    },3000)
 }
-setTimeout(function(){
-    modal.style.display='none'
-},3000)
